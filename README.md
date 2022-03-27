@@ -23,3 +23,5 @@ function processForm(formObject){
   var msg = 'New Customer register Your Name '+formObject.fullname +' '+formObject.age+'\n Tel Number '+formObject.phone
   NotifyApp.sendNotify(token,msg)
 }
+
+Name: Code.GS
