@@ -1,5 +1,7 @@
 import win32com.client
+from expertai.nlapi.cloud.client import ExpertAiClient
 
+client = ExpertAiClient()
 speaker=win32com.client.Dispatch("SAPI.SpVoice")
 while 1:
     print("Input Word :")
